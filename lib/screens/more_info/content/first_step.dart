@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sonar/screens/home/home_page.dart';
 import 'package:sonar/screens/more_info/components/gender_card.dart';
 import 'package:sonar/shared/main_button.dart';
 import 'package:sonar/shared/text_field.dart';

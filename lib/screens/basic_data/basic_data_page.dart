@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sonar/screens/basic_data/components/phpne_number_text_field.dart';
 import 'package:sonar/shared/text_field.dart';
-import 'package:sonar/screens/home/home_page.dart';
 import 'package:sonar/screens/more_info/more_info_page.dart';
 import 'package:sonar/shared/main_button.dart';
 import 'package:sonar/styles/colors.dart' as colors;

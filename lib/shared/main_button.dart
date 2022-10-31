@@ -2,17 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:sonar/styles/colors.dart' as colors;
 
 class MainButton extends StatelessWidget {
-  const MainButton({
-    Key? key,
-    required this.onPressed,
-    required this.title,
-    this.padding,
-    required this.isDangerous,
-  }) : super(key: key);
+  const MainButton(
+      {Key? key, required this.onPressed, required this.title, this.padding, required this.isDangerous, this.width})
+      : super(key: key);
 
   final void Function()? onPressed;
   final String title;
   final EdgeInsetsGeometry? padding;
+  final double? width;
   final bool isDangerous;
 
   @override
@@ -21,7 +18,7 @@ class MainButton extends StatelessWidget {
     return Padding(
       padding: padding == null ? const EdgeInsets.all(0.0) : padding!,
       child: ButtonTheme(
-        minWidth: size.width * 0.9,
+        minWidth: width ?? size.width * 0.9,
         height: 55,
         buttonColor: isDangerous ? Colors.red : colors.primaryColor,
         child: RaisedButton(

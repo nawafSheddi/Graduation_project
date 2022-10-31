@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:html/parser.dart' show parse;
+import 'package:sonar/screens/offer_screen/offer_screen.dart';
 
 class OfferCard extends StatelessWidget {
   const OfferCard({
@@ -19,17 +20,18 @@ class OfferCard extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     return GestureDetector(
       onTap: () async {
-        String brandName = "Careem";
+        // String brandName = "Careem";
 
-        final response = await http.get(
-          Uri.parse(
-              'https://www.google.com/search?q=$brandName&client=safari&rls=en&sxsrf=ALiCzsbc7jVPGpW9wKDlqH_wEziyH2DT3g:1665687911785&tbm=isch&source=iu&ictx=1&vet=1&fir=OOHUXMn-_e_ZrM%252Cm5dQVUxQl58RDM%252C%252Fg%252F11cmqkl_vh&usg=AI4_-kQHuR35Bk0o4rTym9E4_2sPczQL-w&sa=X&ved=2ahUKEwiijaeC8936AhWhhP0HHQWnBPgQ_B16BAhlEAI#imgrc=OOHUXMn-_e_ZrM'),
-        );
-        var document = parse(response.body);
+        // final response = await http.get(
+        //   Uri.parse(
+        //       'https://www.google.com/search?q=$brandName&client=safari&rls=en&sxsrf=ALiCzsbc7jVPGpW9wKDlqH_wEziyH2DT3g:1665687911785&tbm=isch&source=iu&ictx=1&vet=1&fir=OOHUXMn-_e_ZrM%252Cm5dQVUxQl58RDM%252C%252Fg%252F11cmqkl_vh&usg=AI4_-kQHuR35Bk0o4rTym9E4_2sPczQL-w&sa=X&ved=2ahUKEwiijaeC8936AhWhhP0HHQWnBPgQ_B16BAhlEAI#imgrc=OOHUXMn-_e_ZrM'),
+        // );
+        // var document = parse(response.body);
 
-        final elements = await document.querySelectorAll('.png');
+        // final elements = await document.querySelectorAll('.png');
 
-        print(elements.map((a) => a.querySelector('img')!.attributes['src']).toList());
+        // print(elements.map((a) => a.querySelector('img')!.attributes['src']).toList());
+        Navigator.pushNamed(context, OfferScreen.routeName);
       },
       child: Container(
         margin: EdgeInsets.symmetric(horizontal: size.width * 0.05, vertical: size.width * 0.015),

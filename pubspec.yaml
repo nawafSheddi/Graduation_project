@@ -41,6 +41,8 @@ dependencies:
   hive_flutter: ^1.1.0
   http: ^0.13.5
   html: ^0.15.0
+  flutter_slidable: ^2.0.0
+  flutter_switch: ^0.3.2
 
 dev_dependencies:
   flutter_test:
@@ -67,6 +69,7 @@ flutter:
   assets:
     - assets/images/banner/
     - assets/images/brand/
+    - assets/images/other/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
