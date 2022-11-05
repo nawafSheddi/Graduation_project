@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:sonar/providers/personal_info.dart';
 import 'package:sonar/styles/colors.dart' as colors;
 
 class GenderCard extends StatelessWidget {
@@ -6,31 +8,40 @@ class GenderCard extends StatelessWidget {
 
   final bool isMale;
   final bool isSelected;
+
   final void Function()? onTap;
 
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        width: size.width * 0.3,
-        height: size.width * 0.35,
-        padding: const EdgeInsets.symmetric(vertical: 28),
-        decoration: BoxDecoration(
-          color: colors.textFieldColor,
-          border: Border.all(color: isSelected ? colors.thirdColor : colors.cardsBorderColor, width: 2.5),
-          borderRadius: BorderRadius.circular(16),
+    return Consumer<PersonalInfo>(builder: (context, personalInfo, child) {
+      return GestureDetector(
+        onTap: onTap,
+        child: Container(
+          width: size.width * 0.3,
+          height: size.width * 0.35,
+          padding: const EdgeInsets.symmetric(vertical: 28),
+          decoration: BoxDecoration(
+            color: colors.textFieldColor,
+            border: Border.all(
+                color: personalInfo.genderIsNull
+                    ? Colors.red
+                    : isSelected
+                        ? colors.thirdColor
+                        : colors.cardsBorderColor,
+                width: 2.5),
+            borderRadius: BorderRadius.circular(16),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              Icon(isMale ? Icons.man_rounded : Icons.woman_rounded, size: 60),
+              Text(isMale ? "Man" : "Women"),
+            ],
+          ),
         ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: [
-            Icon(isMale ? Icons.man_rounded : Icons.woman_rounded, size: 60),
-            Text(isMale ? "Man" : "Women"),
-          ],
-        ),
-      ),
-    );
+      );
+    });
   }
 }

@@ -1,9 +1,16 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:sonar/providers/offers_provider.dart';
+import 'package:sonar/providers/personal_info.dart';
+import 'package:sonar/providers/tracking_provider.dart';
+import 'package:sonar/screens/home/components/banner.dart';
+import 'package:sonar/screens/home/components/home_page_tabs.dart';
 import 'package:sonar/screens/home/components/offer_card.dart';
 import 'package:sonar/shared/slider.dart';
 import 'package:sonar/shared/navBar.dart';
 import 'package:sonar/styles/colors.dart' as colors;
-import 'package:tab_indicator_styler/tab_indicator_styler.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -14,97 +21,93 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  final ScrollController _mainScrollController = ScrollController();
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("Home"),
-        backgroundColor: colors.primaryColor,
-        leading: GestureDetector(
-          child: const Icon(Icons.search),
-        ),
-        actions: [
-          Padding(
-            padding: const EdgeInsets.only(right: 12),
-            child: GestureDetector(
-              child: const Icon(Icons.sort),
-            ),
-          )
-        ],
-      ),
-      body: SafeArea(
-        child: Column(
-          children: [
-            const ImageSlider(),
-            DefaultTabController(
-              length: 4,
-              child: TabBar(
-                isScrollable: true,
-                onTap: (int index) {
-                  var hh = index == 0;
-                },
-                labelColor: Colors.black,
-                unselectedLabelColor: Colors.grey,
-                indicatorSize: TabBarIndicatorSize.tab,
-                padding: const EdgeInsets.symmetric(vertical: 15),
-                indicator: RectangularIndicator(
-                  bottomLeftRadius: 100,
-                  bottomRightRadius: 100,
-                  topLeftRadius: 100,
-                  topRightRadius: 100,
-                  strokeWidth: 2,
-                  // verticalPadding: 20,
-                  paintingStyle: PaintingStyle.stroke,
-                ),
-                tabs: const [
-                  Text(
-                    "Food",
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  Text(
-                    "Cloth",
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  Text(
-                    "Delivery",
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  Text(
-                    "Fun",
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ],
+    return Consumer3<OffersProvider, TrackingProvider, PersonalInfo>(
+        builder: (context, offersProvider, trackingProvider, personalInfo, child) {
+      return Scaffold(
+        appBar: AppBar(
+          title: const Text("Home"),
+          backgroundColor: colors.primaryColor,
+          leading: GestureDetector(
+            child: const Icon(Icons.search),
+          ),
+          actions: [
+            Padding(
+              padding: const EdgeInsets.only(right: 12),
+              child: GestureDetector(
+                child: const Icon(Icons.sort),
               ),
-            ),
-            SizedBox(
-              height: size.height * 0.5,
-              width: size.width,
-              child: ListView(
-                children: const [
-                  OfferCard(image: "assets/images/brand/1.png", name: "Herfy", offer: "50%"),
-                  OfferCard(image: "assets/images/brand/2.png", name: "Herfy", offer: "50%"),
-                  OfferCard(image: "assets/images/brand/3.png", name: "Herfy", offer: "50%"),
-                  OfferCard(image: "assets/images/brand/4.png", name: "Herfy", offer: "50%"),
-                ],
-              ),
-            ),
+            )
           ],
         ),
-      ),
-      bottomNavigationBar: const NavBar(),
-    );
+        body: SafeArea(
+          child: Column(
+            children: [
+              const HomePageBanner(),
+              HomePageTabs(
+                offersProvider: offersProvider,
+                trackingProvider: trackingProvider,
+                personalInfo: personalInfo,
+              ),
+              Builder(builder: (context) {
+                List allOffers = offersProvider.offersList;
+                List<OfferCard> allCards = [];
+
+                allOffers.forEach(
+                  (offer) {
+                    allCards.add(
+                      OfferCard(
+                        image: "assets/images/brand/${Random().nextInt(3) + 1}.png",
+                        name: offer["name"],
+                        offer: "${offer["offer"]}",
+                        offerData: offer,
+                        trackingProvider: trackingProvider,
+                        personalInfo: personalInfo,
+                      ),
+                    );
+                  },
+                );
+                return SizedBox(
+                  height: size.height * 0.5,
+                  width: size.width,
+                  child: NotificationListener(
+                    child: ListView(
+                      controller: _mainScrollController,
+                      children: allCards,
+                    ),
+                    onNotification: (t) {
+                      if (t is ScrollEndNotification) {
+                        if (_mainScrollController.position.atEdge) {
+                          bool isTop = _mainScrollController.position.pixels == 0;
+                          if (isTop) {
+                            print('At the top');
+                          } else {
+                            print('At the bottom');
+                            if (offersProvider.currentFilterIndex != 0) {
+                              trackingProvider.addAction(
+                                action: UserAction.endHomeList,
+                                userId: personalInfo.userID,
+                                category: offersProvider.getCategory(offersProvider.currentFilterIndex),
+                                offerID: null,
+                              );
+                            }
+                          }
+                        }
+                      }
+
+                      return false;
+                    },
+                  ),
+                );
+              }),
+            ],
+          ),
+        ),
+        bottomNavigationBar: const NavBar(),
+      );
+    });
   }
 }

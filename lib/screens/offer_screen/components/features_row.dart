@@ -10,7 +10,7 @@ class FeaturesRow extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 8.0),
       child: Row(
         children: [
-          const Icon(Icons.check_circle_outline_rounded),
+          const Icon(Icons.access_time_rounded),
           const SizedBox(width: 10),
           Text(
             name,

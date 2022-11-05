@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:html/parser.dart' show parse;
+import 'package:sonar/providers/personal_info.dart';
+import 'package:sonar/providers/tracking_provider.dart';
 import 'package:sonar/screens/offer_screen/offer_screen.dart';
 
 class OfferCard extends StatelessWidget {
@@ -9,11 +11,17 @@ class OfferCard extends StatelessWidget {
     required this.image,
     required this.name,
     required this.offer,
+    required this.offerData,
+    required this.trackingProvider,
+    required this.personalInfo,
   }) : super(key: key);
 
   final String name;
   final String offer;
   final String image;
+  final Map<String, dynamic> offerData;
+  final TrackingProvider trackingProvider;
+  final PersonalInfo personalInfo;
 
   @override
   Widget build(BuildContext context) {
@@ -31,10 +39,31 @@ class OfferCard extends StatelessWidget {
         // final elements = await document.querySelectorAll('.png');
 
         // print(elements.map((a) => a.querySelector('img')!.attributes['src']).toList());
-        Navigator.pushNamed(context, OfferScreen.routeName);
+        trackingProvider.addAction(
+            action: UserAction.offerOpened,
+            userId: personalInfo.userID,
+            category: offerData["category"],
+            offerID: offerData["id"].toString());
+
+        trackingProvider.startTrackDurationInOffer(
+          userId: personalInfo.userID,
+          category: offerData["category"],
+          offerID: offerData["id"].toString(),
+        );
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => OfferScreen(
+              name: offerData["name"],
+              offer: offerData["offer"],
+              offerData: offerData,
+            ),
+          ),
+        );
       },
       child: Container(
         margin: EdgeInsets.symmetric(horizontal: size.width * 0.05, vertical: size.width * 0.015),
+        padding: EdgeInsets.only(right: 15),
         height: 100,
         decoration: BoxDecoration(
           color: Colors.white,
@@ -63,26 +92,30 @@ class OfferCard extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
             ),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  name,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 22,
+            Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    name,
+                    overflow: TextOverflow.ellipsis,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 22,
+                    ),
                   ),
-                ),
-                const SizedBox(height: 10),
-                Text(
-                  offer,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 18,
+                  const SizedBox(height: 10),
+                  Text(
+                    offer,
+                    overflow: TextOverflow.ellipsis,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18,
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             )
           ],
         ),

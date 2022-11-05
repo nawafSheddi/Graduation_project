@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:sonar/providers/user_data_provider.dart';
 import 'package:sonar/screens/likes_list/components/liked_offer_card.dart';
 import 'package:sonar/shared/navBar.dart';
 
@@ -9,41 +11,54 @@ class LikesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    return Scaffold(
-      body: Column(
-        children: [
-          Container(
-            height: size.height * 0.09,
-            padding: EdgeInsets.only(bottom: size.height * 0.005),
-            // decoration: BoxDecoration(),
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: const [
-                  Icon(Icons.favorite_rounded, color: Colors.red),
-                  SizedBox(width: 5),
-                  Text(
-                    "Likes",
-                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, letterSpacing: 3),
+    return Consumer<UserDataProvider>(
+      builder: (context, userDataProvider, child) {
+        return Scaffold(
+          body: Column(
+            children: [
+              Container(
+                height: size.height * 0.09,
+                padding: EdgeInsets.only(bottom: size.height * 0.005),
+                // decoration: BoxDecoration(),
+                child: Align(
+                  alignment: Alignment.bottomCenter,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: const [
+                      Icon(Icons.favorite_rounded, color: Colors.red),
+                      SizedBox(width: 5),
+                      Text(
+                        "Likes",
+                        style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, letterSpacing: 3),
+                      ),
+                    ],
                   ),
-                ],
+                ),
               ),
-            ),
+              Builder(builder: (context) {
+                List likedOffer = userDataProvider.likeList;
+                List<Widget> allCards = [];
+                likedOffer.forEach(
+                  (offer) {
+                    allCards.add(
+                      LikedOfferCard(
+                        image: "assets/images/brand/1.png",
+                        name: offer["name"],
+                        offer: offer["offer"],
+                        offerData: offer,
+                      ),
+                    );
+                  },
+                );
+                return SingleChildScrollView(
+                  child: Column(children: allCards),
+                );
+              }),
+            ],
           ),
-          SingleChildScrollView(
-            child: Column(
-              children: const [
-                LikedOfferCard(image: "assets/images/brand/1.png", name: "Herfy", offer: "50%"),
-                LikedOfferCard(image: "assets/images/brand/2.png", name: "Herfy", offer: "50%"),
-                LikedOfferCard(image: "assets/images/brand/3.png", name: "Herfy", offer: "50%"),
-                LikedOfferCard(image: "assets/images/brand/4.png", name: "Herfy", offer: "50%"),
-              ],
-            ),
-          ),
-        ],
-      ),
-      bottomNavigationBar: const NavBar(),
+          bottomNavigationBar: const NavBar(),
+        );
+      },
     );
   }
 }

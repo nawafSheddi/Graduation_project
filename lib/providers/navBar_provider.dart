@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:sonar/screens/add_offer/add_offer.dart';
 import 'package:sonar/screens/home/home_page.dart';
 import 'package:sonar/screens/likes_list/likes_screen.dart';
 import 'package:sonar/screens/profile/profile_screen.dart';
@@ -17,6 +18,7 @@ class NavBarProvider with ChangeNotifier {
         navToPage(context, const LikesScreen());
         break;
       case 2:
+        navToPage(context, AddOffer());
         break;
       case 3:
         navToPage(context, const ProfileScreen());

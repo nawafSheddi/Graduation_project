@@ -23,7 +23,6 @@ class _NavBarIconState extends State<NavBarIcon> {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        print(widget.index);
         widget.navBarProvider.updateNavBar(widget.index, context);
       },
       child: Icon(

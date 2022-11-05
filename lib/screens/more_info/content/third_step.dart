@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:sonar/providers/personal_info.dart';
 import 'package:sonar/styles/colors.dart' as colors;
 
 class ThirdStep extends StatefulWidget {
@@ -9,49 +11,49 @@ class ThirdStep extends StatefulWidget {
 }
 
 class _ThirdStepState extends State<ThirdStep> {
-  int selectedBrand = -1;
-
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        const Padding(
-          padding: EdgeInsets.only(top: 30, bottom: 14),
-          child: Text(
-            "choose your favorite companies !",
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black),
+    return Consumer<PersonalInfo>(builder: (context, personalInfo, child) {
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Padding(
+            padding: EdgeInsets.only(top: 30, bottom: 14),
+            child: Text(
+              "choose your favorite companies !",
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black),
+            ),
           ),
-        ),
-        Builder(
-          builder: (context) {
-            List<Widget> allBrands = cardGenerator(size);
+          Builder(
+            builder: (context) {
+              List<Widget> allBrands = cardGenerator(size, personalInfo);
 
-            return SizedBox(
-              height: size.height * 0.61306,
-              child: GridView.count(
-                padding: const EdgeInsets.only(top: 10, right: 10, left: 10),
-                crossAxisSpacing: size.width * 0.05,
-                mainAxisSpacing: size.width * 0.05,
-                crossAxisCount: 2,
-                children: allBrands,
-              ),
-            );
-          },
-        )
-      ],
-    );
+              return SizedBox(
+                height: size.height * 0.61306 - 4,
+                child: GridView.count(
+                  padding: const EdgeInsets.only(top: 10, right: 10, left: 10),
+                  crossAxisSpacing: size.width * 0.05,
+                  mainAxisSpacing: size.width * 0.05,
+                  crossAxisCount: 2,
+                  children: allBrands,
+                ),
+              );
+            },
+          )
+        ],
+      );
+    });
   }
 
-  List<Widget> cardGenerator(Size size) {
+  List<Widget> cardGenerator(Size size, PersonalInfo personalInfo) {
     List<Widget> allCards = [];
     for (int i = 0; i < 5; i++) {
       allCards.add(
         GestureDetector(
           onTap: () {
             setState(() {
-              selectedBrand = i;
+              personalInfo.addToFavoriteCompanies(i);
             });
           },
           child: Container(
@@ -85,7 +87,9 @@ class _ThirdStepState extends State<ThirdStep> {
                   spreadRadius: -7.0,
                 ),
               ],
-              border: Border.all(color: selectedBrand == i ? colors.thirdColor : colors.cardsBorderColor, width: 2.5),
+              border: Border.all(
+                  color: personalInfo.favoriteCompaniesIndex.contains(i) ? colors.thirdColor : colors.cardsBorderColor,
+                  width: 2.5),
               borderRadius: BorderRadius.circular(25),
             ),
             child: Image.asset("assets/images/brand/${i + 1}.png"),

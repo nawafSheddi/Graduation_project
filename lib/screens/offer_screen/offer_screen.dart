@@ -1,16 +1,30 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:sonar/providers/personal_info.dart';
+import 'package:sonar/providers/tracking_provider.dart';
 import 'package:sonar/providers/user_data_provider.dart';
 import 'package:sonar/screens/offer_screen/components/features_row.dart';
+import 'package:sonar/screens/offer_screen/components/more_button.dart';
 import 'package:sonar/screens/offer_screen/components/offer_navBar.dart';
+import 'package:sonar/screens/offer_screen/components/share_button.dart';
 import 'package:sonar/screens/offer_screen/components/space.dart';
 import 'package:sonar/shared/back_button.dart';
-import 'package:sonar/shared/main_button.dart';
 import 'package:sonar/shared/slider.dart';
+import 'package:sonar/styles/colors.dart' as colors;
 
 class OfferScreen extends StatefulWidget {
-  const OfferScreen({Key? key}) : super(key: key);
+  const OfferScreen({
+    Key? key,
+    this.name,
+    this.offer,
+    this.offerData,
+  }) : super(key: key);
   static const routeName = "/offer-screen";
+
+  final String? name;
+  final String? offer;
+
+  final Map<String, dynamic>? offerData;
 
   @override
   State<OfferScreen> createState() => _OfferScreenState();
@@ -20,8 +34,15 @@ class _OfferScreenState extends State<OfferScreen> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    return Consumer<UserDataProvider>(
-      builder: (context, userDataProvider, child) {
+    double cardHight = size.height * 0.5199;
+    if (widget.offerData?["details"]!.length > 30) {
+      cardHight += 19.5;
+    }
+    if (widget.offer!.length > 70) {
+      cardHight += 30;
+    }
+    return Consumer3<UserDataProvider, TrackingProvider, PersonalInfo>(
+      builder: (context, userDataProvider, trackingProvider, personalInfo, child) {
         return Scaffold(
           body: Stack(
             children: [
@@ -40,7 +61,7 @@ class _OfferScreenState extends State<OfferScreen> {
                     padding: EdgeInsets.only(top: size.height * 0.25),
                     children: [
                       Container(
-                        height: size.height * 0.5199,
+                        height: cardHight,
                         margin: EdgeInsets.symmetric(horizontal: size.width * 0.05),
                         padding: EdgeInsets.all(size.width * 0.05),
                         decoration: BoxDecoration(
@@ -64,13 +85,21 @@ class _OfferScreenState extends State<OfferScreen> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            const Text("Restaurant", style: TextStyle(fontSize: 17)),
-                            const Align(
+                            Text(
+                              widget.offerData?["category"] ?? "Restaurant",
+                              style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w700),
+                              textDirection: TextDirection.ltr,
+                            ),
+                            const Space(),
+                            Align(
                               alignment: Alignment.center,
                               child: Text(
-                                "Jahez",
-                                style: TextStyle(
-                                    fontSize: 25, fontWeight: FontWeight.bold, letterSpacing: 3.5, color: Colors.red),
+                                widget.offerData?["name"],
+                                style: const TextStyle(
+                                    fontSize: 25,
+                                    fontWeight: FontWeight.bold,
+                                    letterSpacing: 2,
+                                    color: colors.thirdColor),
                               ),
                             ),
                             const Divider(thickness: 1),
@@ -82,24 +111,34 @@ class _OfferScreenState extends State<OfferScreen> {
                             const Space(
                               height: 25,
                             ),
-                            const Text(
-                              "Free Delivery Jahez",
-                              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            const Space(),
-                            const Text(
-                              "You can get free delivery and you can get all the services and terms you want",
-                              style: TextStyle(fontSize: 16),
-                            ),
-                            const Space(height: 25),
-                            const Divider(thickness: 1),
-                            const Space(),
-                            const Align(
-                              alignment: Alignment.center,
-                              child: Text(
-                                "Read More",
-                                style: TextStyle(fontSize: 18, color: Color(0xff221AFB), fontWeight: FontWeight.bold),
-                              ),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Text(
+                                  widget.offer ?? "Offer",
+                                  textAlign: TextAlign.center,
+                                  style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                                ),
+                                const Space(),
+                                Text(
+                                  widget.offerData?["details"] ?? "",
+                                  textAlign: TextAlign.center,
+                                  style: const TextStyle(fontSize: 16),
+                                ),
+                                const Space(height: 25),
+                                const Divider(thickness: 1),
+                                const Space(),
+                                MoreButton(
+                                  name: widget.offerData?["name"],
+                                  offer: widget.offerData?["details"],
+                                  code: widget.offerData?["code"],
+                                  trackingProvider: trackingProvider,
+                                  personalInfo: personalInfo,
+                                  offerID: widget.offerData!["id"].toString(),
+                                  category: widget.offerData?["category"],
+                                  offerLink: widget.offerData?["links"],
+                                ),
+                              ],
                             ),
                           ],
                         ),
@@ -129,13 +168,13 @@ class _OfferScreenState extends State<OfferScreen> {
                         ),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
-                            Padding(
+                          children: [
+                            const Padding(
                               padding: EdgeInsets.only(bottom: 10.0),
                               child: Text("Features", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                             ),
-                            FeaturesRow(name: "Free delivery"),
-                            FeaturesRow(name: "Can use it more than ones"),
+                            FeaturesRow(name: widget.offerData!["duration"]),
+                            const FeaturesRow(name: "Can use it more than ones"),
                           ],
                         ),
                       ),
@@ -144,8 +183,25 @@ class _OfferScreenState extends State<OfferScreen> {
                   ),
                 ),
               ),
-              OffersNavBar(userDataProvider: userDataProvider),
-              const MainBackButton(),
+              OffersNavBar(
+                  userDataProvider: userDataProvider,
+                  offerData: widget.offerData,
+                  trackingProvider: trackingProvider,
+                  personalInfo: personalInfo),
+              MainBackButton(
+                onPressed: () {
+                  trackingProvider.stopTrackDurationInOffer();
+                  Navigator.pop(context);
+                },
+              ),
+              ShareButton(
+                  name: widget.offerData!["name"],
+                  offer: widget.offerData!["details"],
+                  code: widget.offerData!["code"],
+                  trackingProvider: trackingProvider,
+                  personalInfo: personalInfo,
+                  offerID: widget.offerData!["id"].toString(),
+                  category: widget.offerData!["category"])
             ],
           ),
         );

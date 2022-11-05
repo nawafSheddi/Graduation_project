@@ -10,11 +10,14 @@ class LikedOfferCard extends StatelessWidget {
     required this.image,
     required this.name,
     required this.offer,
+    required this.offerData,
   }) : super(key: key);
 
   final String name;
   final String offer;
   final String image;
+  final Map? offerData;
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -29,7 +32,7 @@ class LikedOfferCard extends StatelessWidget {
               SlidableAction(
                 onPressed: (context) {
                   // TODO remove it from likes
-                  userDataProvider.addLike(offerName: "jahez", offerID: "135143");
+                  userDataProvider.addLike(offerData: offerData);
                 },
                 flex: 3,
                 backgroundColor: const Color(0xFFFE4A49),

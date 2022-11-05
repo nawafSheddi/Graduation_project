@@ -1,12 +1,23 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:sonar/providers/personal_info.dart';
+import 'package:sonar/providers/tracking_provider.dart';
 import 'package:sonar/providers/user_data_provider.dart';
 import 'package:sonar/shared/main_button.dart';
 
 class OffersNavBar extends StatelessWidget {
-  OffersNavBar({Key? key, required this.userDataProvider}) : super(key: key);
+  const OffersNavBar({
+    Key? key,
+    required this.userDataProvider,
+    required this.offerData,
+    required this.trackingProvider,
+    required this.personalInfo,
+  }) : super(key: key);
 
   final UserDataProvider userDataProvider;
-  String offerID = "124423";
+  final TrackingProvider trackingProvider;
+  final PersonalInfo personalInfo;
+  final Map<String, dynamic>? offerData;
 
   @override
   Widget build(BuildContext context) {
@@ -39,30 +50,40 @@ class OffersNavBar extends StatelessWidget {
               padding: EdgeInsets.symmetric(horizontal: size.width * 0.07),
               child: GestureDetector(
                 onTap: () {
-                  // TODO
-                  print("liked");
-                  userDataProvider.addLike(offerName: "jahez", offerID: offerID);
+                  userDataProvider.addLike(offerData: offerData);
+                  trackingProvider.addAction(
+                      action: UserAction.like,
+                      userId: personalInfo.userID,
+                      category: offerData!["category"],
+                      offerID: offerData!["id"]);
                 },
                 child: Container(
                   padding: const EdgeInsets.all(8),
                   decoration: BoxDecoration(
                     border: Border.all(
-                        color: userDataProvider.checkOfferIsLiked(offerID)["isLiked"] ? Colors.red : Colors.black),
+                        color: userDataProvider.checkOfferIsLiked(offerData?["id"])["isLiked"]
+                            ? Colors.red
+                            : Colors.black),
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Icon(
-                    userDataProvider.checkOfferIsLiked(offerID)["isLiked"]
+                    userDataProvider.checkOfferIsLiked(offerData?["id"])["isLiked"]
                         ? Icons.favorite_rounded
                         : Icons.favorite_outline_rounded,
-                    color: userDataProvider.checkOfferIsLiked(offerID)["isLiked"] ? Colors.red : null,
+                    color: userDataProvider.checkOfferIsLiked(offerData?["id"])["isLiked"] ? Colors.red : null,
                   ),
                 ),
               ),
             ),
             MainButton(
               width: size.width * 0.7,
-              onPressed: () {
-                // TODO
+              onPressed: () async {
+                Clipboard.setData(ClipboardData(text: offerData!["code"]));
+                trackingProvider.addAction(
+                    action: UserAction.useCodeButton,
+                    userId: personalInfo.userID,
+                    category: offerData!["category"],
+                    offerID: offerData!["id"]);
               },
               title: "Use the offer",
               isDangerous: false,

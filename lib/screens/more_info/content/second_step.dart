@@ -24,7 +24,7 @@ class SecondStepState extends State<SecondStep> {
             allWidget = [];
             getData(size, personalInfo);
             return SizedBox(
-              height: size.height * 0.686,
+              height: size.height * 0.686 - 4,
               child: ListView(
                 padding: const EdgeInsets.all(0),
                 children: allWidget,
@@ -45,12 +45,13 @@ class SecondStepState extends State<SecondStep> {
             choices.add(
               GestureDetector(
                 onTap: () {
+                  print(1);
+                  personalInfo.secondStepChoicesNull(false, false);
                   setState(() {
-                    print("gg");
                     if (element["question"] == "Educational level") {
                       personalInfo.educational = choice;
                     } else if (element["question"] == "Employment State") {
-                      personalInfo.employmentState = element["choices"];
+                      personalInfo.employmentState = choice;
                     }
                   });
                 },
@@ -63,13 +64,17 @@ class SecondStepState extends State<SecondStep> {
                     borderRadius: const BorderRadius.all(Radius.circular(12)),
                     border: Border.all(
                         color: element["question"] == "Educational level"
-                            ? personalInfo.educational == element["choices"]
-                                ? colors.thirdColor
-                                : colors.cardsBorderColor
-                            : element["question"] == "Employment State"
-                                ? personalInfo.employmentState == element["choices"]
+                            ? personalInfo.educationalIsNull
+                                ? Colors.red
+                                : personalInfo.educational == choice
                                     ? colors.thirdColor
                                     : colors.cardsBorderColor
+                            : element["question"] == "Employment State"
+                                ? personalInfo.employmentStateIsNull
+                                    ? Colors.red
+                                    : personalInfo.employmentState == choice
+                                        ? colors.thirdColor
+                                        : colors.cardsBorderColor
                                 : colors.cardsBorderColor),
                   ),
                   child: Text(
