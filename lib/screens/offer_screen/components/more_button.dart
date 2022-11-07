@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:sonar/providers/personal_info.dart';
 import 'package:sonar/providers/tracking_provider.dart';
@@ -75,6 +76,11 @@ class _MoreButtonState extends State<MoreButton> {
               setState(() {
                 downClicked = !downClicked;
               });
+              FirebaseFirestore.instance
+                  .collection("report")
+                  .doc(widget.offerID)
+                  .collection(widget.personalInfo.userID)
+                  .add({"name": widget.name, "offer": widget.offer, "category": widget.category, "code": widget.code});
             },
             child: Icon(
               downClicked ? Icons.thumb_down_rounded : Icons.thumb_down_alt_outlined,

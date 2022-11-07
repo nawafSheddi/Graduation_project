@@ -3,9 +3,11 @@ import 'package:provider/provider.dart';
 import 'package:sonar/providers/personal_info.dart';
 import 'package:sonar/providers/user_data_provider.dart';
 import 'package:sonar/screens/basic_data/components/phpne_number_text_field.dart';
+import 'package:sonar/screens/signIn_screen/singnIn_screen.dart';
 import 'package:sonar/shared/text_field.dart';
 import 'package:sonar/screens/more_info/more_info_page.dart';
 import 'package:sonar/shared/main_button.dart';
+
 import 'package:sonar/styles/colors.dart' as colors;
 
 class BasicData extends StatefulWidget {
@@ -84,10 +86,10 @@ class _BasicDataState extends State<BasicData> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            print("Sign Up");
+                            Navigator.pushReplacementNamed(context, SignIn.routeName);
                           },
                           child: const Text(
-                            " Sign In",
+                            "Sign In",
                             style: TextStyle(color: Color(0xff2FA2B9), fontWeight: FontWeight.bold, fontSize: 17),
                           ),
                         ),

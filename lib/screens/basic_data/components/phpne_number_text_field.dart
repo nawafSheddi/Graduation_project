@@ -28,7 +28,7 @@ class PhoneNumberTextField extends StatelessWidget {
         // cursorHeight: 15,
         inputFormatters: [
           FilteringTextInputFormatter.allow(RegExp("[0-9]")),
-          FilteringTextInputFormatter.deny(RegExp('[a-zA-Z]'))
+          // FilteringTextInputFormatter.deny(RegExp('[a-zA-Z]'))
           // FilteringTextInputFormatter.digitsOnly
         ],
         keyboardType: TextInputType.name,

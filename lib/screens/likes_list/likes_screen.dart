@@ -42,7 +42,7 @@ class LikesScreen extends StatelessWidget {
                   (offer) {
                     allCards.add(
                       LikedOfferCard(
-                        image: "assets/images/brand/1.png",
+                        image: offer["Image"],
                         name: offer["name"],
                         offer: offer["offer"],
                         offerData: offer,
@@ -50,8 +50,11 @@ class LikesScreen extends StatelessWidget {
                     );
                   },
                 );
-                return SingleChildScrollView(
-                  child: Column(children: allCards),
+                return SizedBox(
+                  height: size.height * 0.81,
+                  child: SingleChildScrollView(
+                    child: Column(children: allCards),
+                  ),
                 );
               }),
             ],

@@ -17,7 +17,7 @@ class OffersNavBar extends StatelessWidget {
   final UserDataProvider userDataProvider;
   final TrackingProvider trackingProvider;
   final PersonalInfo personalInfo;
-  final Map<String, dynamic>? offerData;
+  final Map? offerData;
 
   @override
   Widget build(BuildContext context) {
@@ -55,7 +55,7 @@ class OffersNavBar extends StatelessWidget {
                       action: UserAction.like,
                       userId: personalInfo.userID,
                       category: offerData!["category"],
-                      offerID: offerData!["id"]);
+                      offerID: offerData!["id"].toString());
                 },
                 child: Container(
                   padding: const EdgeInsets.all(8),
@@ -83,7 +83,7 @@ class OffersNavBar extends StatelessWidget {
                     action: UserAction.useCodeButton,
                     userId: personalInfo.userID,
                     category: offerData!["category"],
-                    offerID: offerData!["id"]);
+                    offerID: offerData!["id"].toString());
               },
               title: "Use the offer",
               isDangerous: false,

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "567498365278",
+    "project_id": "gp-project-cb915",
+    "storage_bucket": "gp-project-cb915.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567498365278:android:bd3c7db97f84bfd54197cf",
+        "android_client_info": {
+          "package_name": "com.example.sonar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567498365278-fe4ljskrcdvh72tbc2ed301dofol3d72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfvNwnkoGoJlG4fq1Lx2qAXqUpDjWG604"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567498365278-fe4ljskrcdvh72tbc2ed301dofol3d72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:sonar/providers/personal_info.dart';
 import 'package:sonar/screens/profile/components/application_settings.dart';
 import 'package:sonar/screens/profile/components/avatar.dart';
 import 'package:sonar/shared/navBar.dart';
@@ -12,25 +14,29 @@ class ProfileScreen extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
       body: SafeArea(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: const [
-            SizedBox(width: double.infinity),
-            Text(
-              "Profile",
-              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, letterSpacing: 3),
-            ),
-            Avatar(image: "assets/images/other/avatar.jpeg"),
-            Text(
-              "Nawaf ahmed",
-              style: TextStyle(fontWeight: FontWeight.w700, fontSize: 20),
-            ),
-            Text(
-              "nawaf@gmail.com",
-              style: TextStyle(fontSize: 15),
-            ),
-            ApplicationSettings()
-          ],
+        child: Consumer<PersonalInfo>(
+          builder: (context, personalInfo, child) {
+            return Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                const SizedBox(width: double.infinity),
+                const Text(
+                  "Profile",
+                  style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, letterSpacing: 3),
+                ),
+                const Avatar(image: "assets/images/other/avatar.jpeg"),
+                Text(
+                  personalInfo.name,
+                  style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 20),
+                ),
+                Text(
+                  personalInfo.email,
+                  style: const TextStyle(fontSize: 15),
+                ),
+                const ApplicationSettings(),
+              ],
+            );
+          },
         ),
       ),
       bottomNavigationBar: const NavBar(),

@@ -35,7 +35,7 @@ class AddOffer extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     const Text(
-                      "Share Offer",
+                      "Add Offer",
                       style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, letterSpacing: 3),
                     ),
                     const Space(
@@ -76,7 +76,7 @@ class AddOffer extends StatelessWidget {
                               code: codeController.text);
                         }
                       },
-                      title: "Share",
+                      title: "Add",
                       isDangerous: false,
                       padding: EdgeInsets.only(top: size.height * 0.05),
                     ),

@@ -21,6 +21,10 @@ class MoreInfo extends StatefulWidget {
 class _MoreInfoState extends State<MoreInfo> {
   final GlobalKey<FormState> firstFormKey = GlobalKey<FormState>();
 
+  final TextEditingController ageController = TextEditingController();
+  final TextEditingController titleController = TextEditingController();
+  final TextEditingController cityController = TextEditingController();
+
   bool isManSelected = false;
   bool isWomenSelected = false;
 
@@ -61,7 +65,12 @@ class _MoreInfoState extends State<MoreInfo> {
               ),
               const SizedBox(height: 4),
               currentStep == 1
-                  ? FirstStep(formKey: firstFormKey)
+                  ? FirstStep(
+                      formKey: firstFormKey,
+                      ageController: ageController,
+                      titleController: titleController,
+                      cityController: cityController,
+                    )
                   : currentStep == 2
                       ? const SecondStep()
                       : currentStep == 3
@@ -89,6 +98,7 @@ class _MoreInfoState extends State<MoreInfo> {
           setState(() {
             currentStep++;
           });
+          personalInfo.addMoreInfo(age: ageController.text, title: titleController.text, city: cityController.text);
         } else {
           if (personalInfo.isMale == null) {
             personalInfo.isGenderNull(true);
@@ -112,7 +122,7 @@ class _MoreInfoState extends State<MoreInfo> {
 
         break;
       case 3:
-        await personalInfo.saveUserInfo();
+        await personalInfo.saveUserInfo(null);
         Navigator.pushNamed(context, HomePage.routeName);
         break;
       default:

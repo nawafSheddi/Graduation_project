@@ -26,33 +26,53 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
     int counter = 0;
     Size size = MediaQuery.of(context).size;
 
-    return Builder(builder: (context) {
-      return Consumer4<OffersProvider, UserDataProvider, TrackingProvider, PersonalInfo>(
-          builder: (context, offersProvider, userDataProvider, trackingProvider, personalInfo, child) {
-        if (counter == 0) {
-          personalInfo.laudData();
-          offersProvider.uploadAllOffers();
-          userDataProvider.loadLikedList();
-          trackingProvider.addAction(
-            action: UserAction.appOpened,
-            userId: personalInfo.userID,
-            category: null,
-            offerID: null,
+    return Builder(
+      builder: (context) {
+        return Consumer4<OffersProvider, UserDataProvider, TrackingProvider, PersonalInfo>(
+            builder: (context, offersProvider, userDataProvider, trackingProvider, personalInfo, child) {
+          if (counter == 0) {
+            setUp(
+              offersProvider,
+              userDataProvider,
+              trackingProvider,
+              personalInfo,
+            );
+
+            counter++;
+          }
+          return Center(
+            child: AnimatedSplashScreen(
+                duration: 3500,
+                splashIconSize: size.width,
+                backgroundColor: Colors.white,
+                splash: Image.asset('assets/images/other/logo.png'),
+                nextScreen: personalInfo.isLoggedIN ? const HomePage() : const BasicData(),
+                splashTransition: SplashTransition.fadeTransition
+                // pageTransitionType: PageTransitionType.scale,
+                ),
           );
-          counter++;
-        }
-        return Center(
-          child: AnimatedSplashScreen(
-              duration: 3500,
-              splashIconSize: size.width,
-              backgroundColor: Colors.white,
-              splash: Image.asset('assets/images/other/logo.png'),
-              nextScreen: personalInfo.isLoggedIN ? const HomePage() : const BasicData(),
-              splashTransition: SplashTransition.fadeTransition
-              // pageTransitionType: PageTransitionType.scale,
-              ),
-        );
-      });
-    });
+        });
+      },
+    );
+  }
+
+  setUp(
+    offersProvider,
+    userDataProvider,
+    trackingProvider,
+    personalInfo,
+  ) async {
+    await personalInfo.laudData();
+    await offersProvider.uploadAllOffers();
+    await userDataProvider.loadLikedList();
+    await trackingProvider.startSession();
+    await trackingProvider.loadActionList(personalInfo.userID);
+
+    await trackingProvider.addAction(
+      action: UserAction.appOpened,
+      userId: personalInfo.userID,
+      category: null,
+      offerID: null,
+    );
   }
 }

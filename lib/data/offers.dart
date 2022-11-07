@@ -95,7 +95,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "استخدم الكود عند التسجيل واحصل على 20 ريال",
     "duration": " اسبوع ",
     "links": "http://onelink.to/45ycx8",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": "ABD20"
   },
   {
@@ -103,7 +103,7 @@ const List<Map<String, dynamic>> offers = [
     "name": "نيو بالنس",
     "Description": " كل جديد من منتجات رياضية ",
     "offer": "10%",
-    "category": "clothe",
+    "category": "cloth",
     "details": " يشمل جميع المنتجات ",
     "duration": "يومين",
     "links": "https://newbalance.com.sa/",
@@ -253,7 +253,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ، مع بعض الاستثناءات ",
     "duration": " 11 ساعة ",
     "links": "https://saudi.ounass.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " CY6 "
   },
   {
@@ -265,7 +265,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " ساعة ",
     "links": "https://ar.shein.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " W15 "
   },
   {
@@ -277,7 +277,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " عند الشراء مقابل 1600ريال او اكثر ",
     "duration": "ساعة",
     "links": "https://ar.shein.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " P18 "
   },
   {
@@ -289,7 +289,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على المنتجات الغير مخفضه ..ولايشمل جميع المنتجات ",
     "duration": " 4 ساعات ",
     "links": "https://ar-sa.namshi.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SS1 "
   },
   {
@@ -301,7 +301,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 25% لأول طلب ",
     "duration": "يوم",
     "links": "https://ar-sa.namshi.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " RFS6H83 "
   },
   {
@@ -313,7 +313,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " (يشمل جميع المنتجات مع بعض الاستثناءات ) ",
     "duration": " 15 ساعة ",
     "links": "https://apps.apple.com/ro/app/6thstreet-com/id1370217070",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SS6 "
   },
   {
@@ -325,7 +325,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 15% على المنتجات الغير مخفضة \n خصم 10% على المنتجات المخفضة ",
     "duration": " 8 ساعات ",
     "links": "https://styli.app.link/sahseh",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " FFFF "
   },
   {
@@ -337,7 +337,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://ovachi.page.link/ZCg5",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " W10 "
   },
   {
@@ -349,7 +349,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://alaseel.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SH15 "
   },
   {
@@ -361,7 +361,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 10% بحد اقصى 50ريال على منتجات سنتر بوينت فقط ",
     "duration": " اقل من ساعة ",
     "links": "https://www.centrepointstores.com/sa/ar/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SHUKRAN10 "
   },
   {
@@ -373,7 +373,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على المنتجات الغير مخفضة ",
     "duration": "يوم",
     "links": "https://sa.hm.com/en/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " T4LX "
   },
   {
@@ -385,7 +385,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم لأول طلب + لا يشمل المنتجات المخفضة ولايشمل جميع الماركات ",
     "duration": "يوم",
     "links": "https://www.farfetch.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " EYFF "
   },
   {
@@ -397,7 +397,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 10% على جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://wardrobefashion.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " W6 "
   },
   {
@@ -409,7 +409,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " شامل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://www.zaful.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " ZL04 "
   },
   {
@@ -422,7 +422,7 @@ const List<Map<String, dynamic>> offers = [
     "duration": " 23 ساعة ",
     "links":
         "https://ar-sa.tommy.com/?gclid=CjwKCAjwk6-LBhBZEiwAOUUDp8FJMTD05Jkbv97IDq5kIXPEyeQJ5sZkNwUsQKI--Y0QX0tHGoYfuhoCTrMQAvD_BwE",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " MA53 "
   },
   {
@@ -434,7 +434,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " بحد أقصى 60 دولارًا ",
     "duration": "اسبوع",
     "links": "https://theluxurycloset.com/uae-ar/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " LC44 "
   },
   {
@@ -446,7 +446,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات مع بعض الاستثناءات ",
     "duration": "اسبوع",
     "links": "https://bloomingdales.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SA7 "
   },
   {
@@ -458,7 +458,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 7 ساعات ",
     "links": "https://www.underarmour.sa/ar/home",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SA7 "
   },
   {
@@ -470,7 +470,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على جميع المنتجات ..فقط بالسعوديه ",
     "duration": " 4 أيام ",
     "links": "https://www.americaneagle.com.sa/ar/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " TTAA "
   },
   {
@@ -482,7 +482,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات مع بعض الاستثناءات ",
     "duration": "اسبوع",
     "links": "https://thegivingmovement.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " G27 "
   },
   {
@@ -494,7 +494,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://eleganzaconcept.com/en/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " ACC87 "
   },
   {
@@ -506,7 +506,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على قسم العبايات الجديدة ( اكثر من 150 ريال ) ",
     "duration": " يومين ",
     "links": "https://talafashion.com.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " TALA20 "
   },
   {
@@ -518,7 +518,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://me.agentprovocateur.com/ae-sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " CP989 "
   },
   {
@@ -530,7 +530,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " لايشمل جميع المنتجات ",
     "duration": " 5 أيام ",
     "links": "https://en-sa.6thstreet.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SR66 "
   },
   {
@@ -542,7 +542,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " اسبوع ",
     "links": "http://lebs.com/ar",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SHOP155 "
   },
   {
@@ -554,7 +554,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 50 ريال في حال الشراء بقيمة 400 ريال ",
     "duration": " 18 ساعة ",
     "links": "http://chicpoint.onelink.me/DWXY/4c551f0f",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " ABC10 "
   },
   {
@@ -566,7 +566,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات عند الشراء بمبلغ 150 واكثر ,, ",
     "duration": " يوم ",
     "links": "https://www.maxfashion.com/sa/ar/department/men",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " MX47 "
   },
   {
@@ -578,7 +578,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 20% للمستخدمين الجدد و 15% لباقي العملاء ",
     "duration": " اسبوع ",
     "links": "https://www.modanisa.com/ar/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " CX04 "
   },
   {
@@ -590,7 +590,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل المنتجات بالاضافة للمنتجات المخفضة ",
     "duration": " اسبوع ",
     "links": "https://letsbuysa.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " LS22 "
   },
   {
@@ -602,7 +602,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "يوم",
     "links": "https://coppercup.net/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " صحصح20 "
   },
   {
@@ -614,7 +614,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " اسبوع ",
     "links": "https://umqcoffee.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " UMQ12 "
   },
   {
@@ -626,7 +626,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل محاصيل القهوة ",
     "duration": " 3 أيام ",
     "links": "https://soilroasters.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " soilsah10 "
   },
   {
@@ -638,7 +638,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " نصف مشترياتك على لابوتيه دي لامور + كود خصم توصيل مجاني للطلبات فوق 100 ريال ",
     "duration": " اسبوع ",
     "links": "https://labeautedelamour.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " BBB "
   },
   {
@@ -650,7 +650,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " نصف مشترياتك على كيو & ايه + كود خصم توصيل مجاني للطلبات فوق 100 ريال ",
     "duration": " اسبوع ",
     "links": "https://qa-cosmetics.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " AAA "
   },
   {
@@ -662,7 +662,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 5 أيام ",
     "links": "https://www.izilbeauty.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " T388 "
   },
   {
@@ -674,7 +674,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " اسبوع ",
     "links": "https://salla.sa/missyes",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " MIS "
   },
   {
@@ -686,7 +686,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " اسبوع ",
     "links": "https://somebymi.me/ar",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " G55 "
   },
   {
@@ -698,7 +698,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " اسبوع ",
     "links": "https://oudmilano.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " s7s7 "
   },
   {
@@ -710,7 +710,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل اورينا ماسك و اورينا كلين فقط ",
     "duration": " اسبوع ",
     "links": "https://orena.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " WS1 "
   },
   {
@@ -722,7 +722,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " اسبوع ",
     "links": "https://alura-sa.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " BDFAET "
   },
   {
@@ -734,7 +734,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 3 أيام ",
     "links": "https://unicare.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " f20 "
   },
   {
@@ -746,7 +746,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 25% على رسوم الخدمة لجميع الخدمات ",
     "duration": " اسبوع ",
     "links": "https://mismarapp.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " S25 "
   },
   {
@@ -758,7 +758,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع قطع الغيار الجديدة والمستعملة ( 10 استخدامات ) . ",
     "duration": " اسبوع ",
     "links": "https://speero.net/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SPR "
   },
   {
@@ -770,7 +770,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ، كحد اقصى 50 ريال ",
     "duration": " 3 أيام ",
     "links": "https://hyperurl.co/b8akapp",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SAH10 "
   },
   {
@@ -782,7 +782,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " شحن مجاني على جميع السيارات ",
     "duration": "اسبوع",
     "links": "https://syarah.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SAH "
   },
   {
@@ -794,7 +794,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " كحد اقصى 10 ريال (استخدام 3 مرات) ",
     "duration": " اقل من ساعة ",
     "links": "https://www.noon.com/saudi-en/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " ABC17 "
   },
   {
@@ -806,7 +806,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 9 ساعات ",
     "links": "https://www.sephora.sa/ar/home",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " CP9 "
   },
   {
@@ -818,7 +818,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات باستثناء(ديور-شانيل-دكتور فراجنيس-توم فورد-ثمين)\n +(خصم 50% للماركات العربيه) ",
     "duration": " 14 ساعة ",
     "links": "https://www.goldenscent.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " AAS "
   },
   {
@@ -831,7 +831,7 @@ const List<Map<String, dynamic>> offers = [
         " خصم 20% بحد اقصى 50 ريال على الأصناف غير المخفضة ، 10% بحد اقصى 50 ريال سعودي على الأصناف المخفضة ، 5% بحد اقصى 5 ريال سعودي على مستحضرات التجميل ",
     "duration": " يومين ",
     "links": "https://www.sivvi.com/saudi-ar/women",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " B5 "
   },
   {
@@ -843,7 +843,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " لا يشمل جميع المنتجات ",
     "duration": " 11 ساعة ",
     "links": "https://www.mumzworld.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " CC33 "
   },
   {
@@ -855,7 +855,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " يومين ",
     "links": "https://vogacloset.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " PSH "
   },
   {
@@ -868,7 +868,7 @@ const List<Map<String, dynamic>> offers = [
     "duration": " 13 ساعة ",
     "links":
         "https://www.google.com/aclk?sa=l&ai=DChcSEwjPxta07_D5AhXXkGgJHTMRAMsYABAYGgJ3Zg&sig=AOD64_248wyZf63Iyo-qHmNnD-jT0AXS4w&q&adurl&ved=2ahUKEwi878607_D5AhUDwYUKHevMAVMQ0Qx6BAgDEAE",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " RD466 "
   },
   {
@@ -880,7 +880,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل المنتجات الغير مخفضه فقط بحد اقصى 15 ريال للخصم ",
     "duration": " ساعة ",
     "links": "https://niceonesa.com/ar/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " Shop3 "
   },
   {
@@ -892,7 +892,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 60% على باقات 12 شهر (كامبلي وكامبلي كيدز) ",
     "duration": " ساعتين ",
     "links": "https://www.cambly.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " ss-60 "
   },
   {
@@ -904,7 +904,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " توصيل مجاني للطلبات من (179 ريال او اقل) ",
     "duration": " 9 ساعات ",
     "links": "https://qr.io/r/rF52lm",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " FreeDel "
   },
   {
@@ -916,7 +916,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " بطاقة رسال ال ١٠ ريال، تصير ب1 بريال بعد استخدام كود الخصم ",
     "duration": " 14 ساعة ",
     "links": "https://giftcards.resal.me/?adjust_referrer=adjust_reftag%3DcDkeAHRf9XrY7",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " RSL "
   },
   {
@@ -928,7 +928,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " عند شراء 10 كراتين أو اكثر ",
     "duration": " يوم ",
     "links": "https://berain.com.sa/oms/address/choose",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " BRN "
   },
   {
@@ -940,7 +940,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات باستثناء المنتجات المخفضة ",
     "duration": " 6 أيام ",
     "links": "https://squatwolf.com/ar/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SWX "
   },
   {
@@ -952,7 +952,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " توصيل مجاني + عرض المتجر نصف مشترياتك على درعه ",
     "duration": " يوم ",
     "links": "https://www.deraahstore.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": "DDD"
   },
   {
@@ -964,7 +964,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " يومين ",
     "links": "https://floward.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " صحصح "
   },
   {
@@ -978,7 +978,7 @@ const List<Map<String, dynamic>> offers = [
     "duration": " 13 ساعة ",
     "links":
         "https://www.google.com/aclk?sa=l&ai=DChcSEwjb2Nbh7Y77AhUdj2gJHbbcA4AYABAAGgJ3Zg&ase=2&sig=AOD64_1miqGx4KyHZ5y3BQpYCWQNj5DGuA&q&nis=4&adurl&ved=2ahUKEwilxs3h7Y77AhV5Q_EDHRdKD5YQ0Qx6BAgJEAE",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " Lucky10 "
   },
   {
@@ -990,7 +990,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " ساعة ",
     "links": "https://www.iherb.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " BCZ0993 "
   },
   {
@@ -1003,7 +1003,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " لغاية 10% نقاط بمحفظتك على حجوزات السفر ",
     "duration": " 23 ساعة ",
     "links": "https://www.almosafer.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " ALMOSAFER "
   },
   {
@@ -1015,7 +1015,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على جميع المنتجات ",
     "duration": " 11 ساعة ",
     "links": "https://www.bathandbodyworks.com.sa/ar/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " TTF5 "
   },
   {
@@ -1027,7 +1027,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "يومين",
     "links": "https://homzmart.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " HMSH "
   },
   {
@@ -1039,7 +1039,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " أبرز كود الخصم لموظف فرع الخبر، واحصل على 17% خصم فوري، يشمل جميع المنتجات غير المخفضة ",
     "duration": "اسبوع",
     "links": "https://www/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SUD "
   },
   {
@@ -1051,7 +1051,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 3 أيام ",
     "links": "https://www.guess.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " G98 "
   },
   {
@@ -1064,7 +1064,7 @@ const List<Map<String, dynamic>> offers = [
     "duration": " اقل من ساعة ",
     "links":
         "https://www.amazon.sa/-/en/gp/bestsellers?&linkCode=ll2&tag=sahseh08-21&linkId=bf237496bce14f00e607e50843e06e89&language=en_AE&ref_=as_li_ss_tl",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " تسوق الان "
   },
   {
@@ -1076,7 +1076,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " 5% كاش باك ، كحد أقصى 100 ر.س ",
     "duration": " 4 أيام ",
     "links": "http://onelink.to/c9ctmd",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " Water "
   },
   {
@@ -1088,7 +1088,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " اسبوع ",
     "links": "https://me.hummel.net/ar-sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " CP555 "
   },
   {
@@ -1100,7 +1100,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " بحد أقصى 50ر.س ( 10 استخدامات ) ",
     "duration": "4 أيام",
     "links": "https://haseelapp.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " حصيل "
   },
   {
@@ -1112,7 +1112,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 20 ريال من السلة كحد ادنى لسلة 55 ريال ",
     "duration": "اسبوع",
     "links": "http://yaafoods.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " YS1 "
   },
   {
@@ -1124,7 +1124,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 11 ساعة ",
     "links": "https://almnsour.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " N12 "
   },
   {
@@ -1137,7 +1137,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 5 أيام ",
     "links": "https://markat.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " RT10 "
   },
   {
@@ -1149,7 +1149,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 6 أيام ",
     "links": "https://www.a3yadsa.com//",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " Aa "
   },
   {
@@ -1161,7 +1161,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ، باستثناء المنتجات المخفضة ",
     "duration": " اسبوع ",
     "links": "https://alsudairinouf.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " NOF15 "
   },
   {
@@ -1173,7 +1173,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات..يتم تفعيل الكود بعد اختيار وسيلة الدفع ",
     "duration": " اسبوع ",
     "links": "https://zoohoorshop.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " zohor "
   },
   {
@@ -1185,7 +1185,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " اسبوع ",
     "links": "https://sqdesignsa.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " PINK "
   },
   {
@@ -1197,7 +1197,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ، كحد ادنى 180 ر.س ",
     "duration": " اسبوع ",
     "links": "https://daremtnan.com/ar",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " AFMS "
   },
   {
@@ -1209,7 +1209,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على منتجات مختارة ",
     "duration": " يومين ",
     "links": "https://www.sa.boots.com/ar/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " T1144 "
   },
   {
@@ -1221,7 +1221,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "10%",
     "duration": " اسبوع ",
     "links": "https://ksa.milanomena.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " C444 "
   },
   {
@@ -1233,7 +1233,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": " اسبوع ",
     "links": "https://be-uni9ue.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SH10 "
   },
   {
@@ -1245,7 +1245,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": " اسبوع ",
     "links": "https://asnasstore.com/ar",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " AS68 "
   },
   {
@@ -1257,7 +1257,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ماعدا المخفضة ",
     "duration": " 5 أيام ",
     "links": "https://belvoirgulf.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " B15 "
   },
   {
@@ -1269,7 +1269,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " شامل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://www.westelm.com.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " T1011 "
   },
   {
@@ -1281,7 +1281,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 6 أيام ",
     "links": "https://werdah.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " wrd "
   },
   {
@@ -1293,7 +1293,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع الخدمات ",
     "duration": "اسبوع",
     "links": "https://www.sanar.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " BOE "
   },
   {
@@ -1305,7 +1305,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 3 أيام ",
     "links": "https://bloss-sa.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SAH "
   },
   {
@@ -1317,7 +1317,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " توصيل مجاني ",
     "duration": " 18 ساعة ",
     "links": "https://johrh.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " s7s7 "
   },
   {
@@ -1329,7 +1329,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات - في التطبيق فقط ",
     "duration": " 17 ساعة ",
     "links": "https://onelink.to/pgkjdp",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " Sahsah "
   },
   {
@@ -1341,7 +1341,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات، ماعدا صندوق المكياج ",
     "duration": " يوم ",
     "links": "https://mikyajy.com/ksa_en/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": "OFF653"
   },
   {
@@ -1353,7 +1353,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ، باستثناء المنتجات المخفضة ",
     "duration": "اسبوع",
     "links": "https://pets-houses.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " MYPET "
   },
   {
@@ -1365,7 +1365,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات، باستثناء المنتجات المخفضة ",
     "duration": "اسبوع",
     "links": "https://cvaley.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " KKK "
   },
   {
@@ -1377,7 +1377,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على منتجات مختارة (قائمة حصرية) ",
     "duration": "اسبوع",
     "links": "https://www.lookfantastic.ae/offers/lf-exclusive.list",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " FN22 "
   },
   {
@@ -1389,7 +1389,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم على حجوزات الفنادق في السعودية ",
     "duration": "اسبوع",
     "links": "https://www.holdinn.com/en",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": "13129"
   },
   {
@@ -1401,7 +1401,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://www.brandedperfume.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " ARX "
   },
   {
@@ -1413,7 +1413,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " لا يشمل جميع المنتجات ",
     "duration": " يومين ",
     "links": "https://www.sa.redtag-stores.com/ar",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " R58 "
   },
   {
@@ -1425,7 +1425,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://zubairiatjamal.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " Z10 "
   },
   {
@@ -1437,7 +1437,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " للمستخدمين الجدد فقط ",
     "duration": " 3 أيام ",
     "links": "https://www.desertcart.ae/-/ar/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " DCM360 "
   },
   {
@@ -1450,7 +1450,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " الطلب عن طريق التطبيق فقط ",
     "duration": "اسبوع",
     "links": "https://commaa.com.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " COMMAA "
   },
   {
@@ -1462,7 +1462,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على منتجات مختارة ",
     "duration": "اسبوع",
     "links": "https://cardial.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " A015 "
   },
   {
@@ -1474,7 +1474,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " لايشمل جميع المنتجات ",
     "duration": " يوم ",
     "links": "https://mamasandpapas.com.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SA7 "
   },
   {
@@ -1486,7 +1486,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم على جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://www.anotah.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SA7 "
   },
   {
@@ -1498,7 +1498,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://ar-sa.rituals.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " BK1 "
   },
   {
@@ -1510,7 +1510,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 4 ساعات ",
     "links": "https://ioudstore.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " 7AA "
   },
   {
@@ -1522,7 +1522,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ، كحد اقصى 50ريال سعودي ",
     "duration": "اسبوع",
     "links": "https://www.mahabaa.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " MHBA "
   },
   {
@@ -1534,7 +1534,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على منتجات مختارة ",
     "duration": "اسبوع",
     "links": "https://reefi.me/?utm_source=li",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " S7R "
   },
   {
@@ -1546,7 +1546,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " اقل من ساعة ",
     "links": "http://www.hibobi.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " NAR88 "
   },
   {
@@ -1558,7 +1558,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات، باستثناء قسم الكروت ",
     "duration": " 4 أيام ",
     "links": "https://www.joigifts.com/ar-sa/riyadh",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " S7S7 "
   },
   {
@@ -1570,7 +1570,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ، ماعدا العطور والنظارات ",
     "duration": "اسبوع",
     "links": "https://www.eoutlet.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SE22 "
   },
   {
@@ -1582,7 +1582,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 3 أيام ",
     "links": "https://www.sayyar.com/ar/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SAH "
   },
   {
@@ -1594,7 +1594,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://www.potterybarnkids.com.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " C1334 "
   },
   {
@@ -1606,7 +1606,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " الكود يعمل على الموقع فقط وليس التطبيق \n يشمل السعوديه ودول الخليج ..بحد اقصى 50ريال للخصم ",
     "duration": " 6 ساعات ",
     "links": "https://aynma.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " AN100 "
   },
   {
@@ -1618,7 +1618,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع الاستشارات (استخدام مره واحده) ",
     "duration": " 3 أيام ",
     "links": "https://labayh.net/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " Dr20 "
   },
   {
@@ -1630,7 +1630,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " اسبوع ",
     "links": "http://bit.ly/31AdrNa",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " CP22 "
   },
   {
@@ -1642,7 +1642,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " اسبوع ",
     "links": "https://www.season.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SH10 "
   },
   {
@@ -1654,7 +1654,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " اسبوع ",
     "links": "https://nrdd.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " WS1 "
   },
   {
@@ -1666,7 +1666,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " اسبوع ",
     "links": "https://perfumstation.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SH7 "
   },
   {
@@ -1678,7 +1678,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على منتجات مختارة ",
     "duration": " اسبوع ",
     "links": "https://www.tryano.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " TR100 "
   },
   {
@@ -1690,7 +1690,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على منتجات مختارة ",
     "duration": " اسبوع ",
     "links": "https://raseel.gift/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " ra54e "
   },
   {
@@ -1702,7 +1702,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على المنتجات الغير مخفضة ",
     "duration": " اسبوع ",
     "links": "https://zrafh.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " MH56 "
   },
   {
@@ -1714,7 +1714,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات مع بعض الاستثناءات ",
     "duration": " يوم ",
     "links": "http://m.saramart.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " IT86 "
   },
   {
@@ -1726,7 +1726,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " شامل جميع المنتجات ماعدا بطاقات الاتصالات/ الهدايا ( 3 مرات لكل مستخدم ) ",
     "duration": " اسبوع ",
     "links": "http://sasphone.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " S7FR "
   },
   {
@@ -1738,7 +1738,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " بشمل جميع المنتجات ",
     "duration": "يوم",
     "links": "https://www.elctoys.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SA7 "
   },
   {
@@ -1750,7 +1750,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " بشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "http://ar.metrobrazil.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SA7 "
   },
   {
@@ -1762,7 +1762,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " بشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "http://forher.com.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": "am36"
   },
   {
@@ -1774,7 +1774,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "على منتجات مختارة",
     "duration": "اسبوع",
     "links": "https://asalaljebal.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " DD "
   },
   {
@@ -1786,7 +1786,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " لا يشمل المنتجات المخفضة ",
     "duration": " اقل من ساعة ",
     "links": "http://alhabibshop.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SA7 "
   },
   {
@@ -1798,7 +1798,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على منتجات مختارة ",
     "duration": " اسبوع ",
     "links": "https://arganpackage.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " صحصح "
   },
   {
@@ -1810,7 +1810,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل المنتجات بقيمة 70 ريال و أكثر ",
     "duration": " اسبوع ",
     "links": "https://www.abyati.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " Abyati "
   },
   {
@@ -1822,7 +1822,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " شامل جميع المنتجات ",
     "duration": " 20 ساعة ",
     "links": "https://fx1ksa.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " A15 "
   },
   {
@@ -1834,7 +1834,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " شامل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://vagueoud.com/?utm_source=ref&utm_campaign=MAK",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " MAK "
   },
   {
@@ -1846,7 +1846,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " شامل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://www.almusallm.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " NMS190 "
   },
   {
@@ -1858,7 +1858,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " شامل جميع المنتجات ",
     "duration": " 19 ساعة ",
     "links": "https://bsatintaibh.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " Nn10 "
   },
   {
@@ -1870,7 +1870,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " شامل جميع المنتجات ",
     "duration": " 19 ساعة ",
     "links": "https://rafkksa.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " Nawal5 "
   },
   {
@@ -1882,7 +1882,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " شامل جميع المنتجات ",
     "duration": "19 ساعة",
     "links": "https://refee.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " rifi "
   },
   {
@@ -1894,7 +1894,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " شامل جميع المنتجات ",
     "duration": " 21 ساعة ",
     "links": "https://garleen.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SHSH "
   },
   {
@@ -1906,7 +1906,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " شامل جميع المنتجات ",
     "duration": " 23 ساعة ",
     "links": "https://moya-sa.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " TX5 "
   },
   {
@@ -1918,7 +1918,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " شامل جميع المنتجات ",
     "duration": " 3 أيام ",
     "links": "https://miracle-desiign.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SARH "
   },
   {
@@ -1930,7 +1930,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل المنتجات بقيمة 120 ريال و أكثر ",
     "duration": " 4 أيام ",
     "links": "https://3q.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " TQ "
   },
   {
@@ -1942,7 +1942,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "شامل جميع المنتجات",
     "duration": "اسبوع",
     "links": "https://edmarked2e.com/ar/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " NA199 "
   },
   {
@@ -1954,7 +1954,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "شامل جميع المنتجات",
     "duration": " يومين ",
     "links": "https://www.nayomi.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " sa7 "
   },
   {
@@ -1966,7 +1966,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " كحد اقصى 50 ريال سعودي ",
     "duration": "اسبوع",
     "links": "http://www.rosemaryperfumes.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " RE66 "
   },
   {
@@ -1978,7 +1978,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على منتجات مختارة ",
     "duration": " يوم ",
     "links": "https://www.swarovski.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " CX1 "
   },
   {
@@ -1990,7 +1990,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "4 أيام",
     "links": "http://www.thebodyshop.com.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " TS23 "
   },
   {
@@ -2002,7 +2002,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 5 أيام ",
     "links": "https://www.izilbeauty.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " T388 "
   },
   {
@@ -2014,7 +2014,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 50ر.س على الرحلات بحد اقصى 500 ريال لقيمة التذكره لتفعيل الكود..للاستخدام لمره واحده ",
     "duration": " 12 ساعة ",
     "links": "https://www.flyin.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " AMEE "
   },
   {
@@ -2026,7 +2026,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "بشمل جميع المنتجات",
     "duration": "اسبوع",
     "links": "http://www.potterybarn.com.sa/ar/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " C131 "
   },
   {
@@ -2038,7 +2038,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://www.rivafashion.com/ksa/ar/kids.html",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " RVA "
   },
   {
@@ -2050,7 +2050,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ( باستثناء ممسحة ريبال ماجيك) ",
     "duration": "اسبوع",
     "links": "https://ribalpower.sa/products/ريبال-بطارية-aaa-قابلة-للشحن",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " WS1 "
   },
   {
@@ -2062,7 +2062,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات للمناطق التاليه:( الرياض، جدة، الخبر، الدمام، الظهران، القطيف، سيهات و الأحساء) ",
     "duration": "اسبوع",
     "links": "https://naseemsa.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " NSEM "
   },
   {
@@ -2074,7 +2074,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على منتجات مختارة ",
     "duration": " اسبوع ",
     "links": "https://www.ubuy.com.sa/ar/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " UBFMM9X "
   },
   {
@@ -2087,7 +2087,7 @@ const List<Map<String, dynamic>> offers = [
         " يشمل جميع المنتجات باستثناء Dermalux -Lyma - قناع النوم المضاد للتجاعيد للدكتور هاريس ، الحد الأدنى 150 دولارًا ",
     "duration": " اسبوع ",
     "links": "https://me.currentbody.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SS "
   },
   {
@@ -2099,7 +2099,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "بشمل جميع المنتجات",
     "duration": " اسبوع ",
     "links": "https://scent4me.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " ACC451 "
   },
   {
@@ -2111,7 +2111,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على جميع المنتجات باستثناء الهواتف المحموله ..بحد اقصى 25 ر.س ",
     "duration": " يومين ",
     "links": "http://www.fordeal.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " RAM100 "
   },
   {
@@ -2123,7 +2123,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://www.samma3a.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " 2N0 "
   },
   {
@@ -2135,7 +2135,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://glossylounge.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": "  GL33 "
   },
   {
@@ -2147,7 +2147,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://www.linzi.me/ar-sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " NA676 "
   },
   {
@@ -2159,7 +2159,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ، مع بعض الاستثناءات (خصم 10% للعملاء الجدد و8% لباقي العملاء) ",
     "duration": "اسبوع",
     "links": "https://ar-saudi.levelshoes.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " BLK144 "
   },
   {
@@ -2171,7 +2171,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " نصف مشترياتك على ال بي بيرفيوم + كود خصم توصيل مجاني ",
     "duration": "اسبوع",
     "links": "https://lb-perfume.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " LLL "
   },
   {
@@ -2183,7 +2183,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": "اسبوع",
     "links": "https://ar-sa.crocsgulf.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SS1 "
   },
   {
@@ -2195,7 +2195,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": "اسبوع",
     "links": "https://koenig74.com/collections/all",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " AC5 "
   },
   {
@@ -2207,7 +2207,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": "اسبوع",
     "links": "https://global.dudubags.com/ar-sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " CP393 "
   },
   {
@@ -2219,7 +2219,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": "اسبوع",
     "links": "https://biocenter.com.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " bio10 "
   },
   {
@@ -2231,7 +2231,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل المنتجات بالاضافة للمنتجات المخفضة ",
     "duration": "اسبوع",
     "links": "https://letsbuysa.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " LS22 "
   },
   {
@@ -2243,7 +2243,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " 15% باستثناء تصنيف التجهيزات الخارجية (فقط بالرياض) ",
     "duration": "اسبوع",
     "links": "https://just-flower.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SH15 "
   },
   {
@@ -2255,7 +2255,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات عند الشراء بقيمة 500 ريال وأكثر ",
     "duration": "اسبوع",
     "links": "https://samana1.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SOLAR "
   },
   {
@@ -2267,7 +2267,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": "اسبوع",
     "links": "https://gherasstore.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " GS22 "
   },
   {
@@ -2279,7 +2279,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات(باستثناء الليات الزراعية، والمجموعات) ",
     "duration": "اسبوع",
     "links": "https://alaqeed.com.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SA10 "
   },
   {
@@ -2291,7 +2291,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": " 3 أيام ",
     "links": "https://me.marchesa.com/ar",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " CP997 "
   },
   {
@@ -2303,7 +2303,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " للاستخدام مرتين فقط ",
     "duration": "اسبوع",
     "links": "https://sendfreshmails.com/categories/420374/eastern",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " special7 "
   },
   {
@@ -2315,7 +2315,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": "اسبوع",
     "links": "https://shift-saudi.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " H25 "
   },
   {
@@ -2327,7 +2327,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": "اسبوع",
     "links": "https://sa.cosstores.com/en/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " TTT2 "
   },
   {
@@ -2339,7 +2339,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات مع بعض الاستثناءات ",
     "duration": "اسبوع",
     "links": "https://gb.admiremyskin.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " ADS3 "
   },
   {
@@ -2351,7 +2351,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": " 9 ساعات ",
     "links": "https://classylook.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " S10 "
   },
   {
@@ -2363,7 +2363,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على الذبائح الكاملة فقط و بحد أقصى ١٠٠ ريال (الرياض فقط) ",
     "duration": "اسبوع",
     "links": "https://thkapp.com/index.php?route=common/home",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " thka "
   },
   {
@@ -2375,7 +2375,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": "اسبوع",
     "links": "https://me.fragrance.com/en-ae/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " CP999 "
   },
   {
@@ -2387,7 +2387,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 15% لجميع المستخدمين (الحد الأدنى للطلب 150ريال )+ توصيل مجاني ",
     "duration": " 21 ساعة ",
     "links": "https://mawaredwater.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " صح "
   },
   {
@@ -2399,7 +2399,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على جميع الاقمشة ",
     "duration": "اسبوع",
     "links": "https://almulhimfab.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " Eid15 "
   },
   {
@@ -2411,7 +2411,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " رصيد اضافي بالمحفظة بمبلغ 50 ريال . ",
     "duration": " اسبوع ",
     "links": "https://apps.apple.com/sa/app/1pass/id1261918868",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " S50 "
   },
   {
@@ -2423,7 +2423,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم5%يشمل المناسبات الصغيره بحد اقصى 100ريال                                     ",
     "duration": " اسبوع ",
     "links": "https://onelink.to/eventful",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " ses7s7 "
   },
   {
@@ -2435,7 +2435,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ، باستثناء المنتجات المخفضة ",
     "duration": " اسبوع ",
     "links": "https://www.wopow.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " Wo22 "
   },
   {
@@ -2447,7 +2447,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 10% على جميع المطاعم (جدة-الرياض-المنطقة الشرقية) ",
     "duration": " اسبوع ",
     "links": "http://bit.ly/chefyapp",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " CHS10 "
   },
   {
@@ -2460,7 +2460,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": " اسبوع ",
     "links": "https://store.digitalrevolutionsa.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " GFC50 "
   },
   {
@@ -2472,7 +2472,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " يوم ",
     "links": "https://coppercup.net/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " صحصح20 "
   },
   {
@@ -2484,7 +2484,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://thesecretskin.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " FLY88 "
   },
   {
@@ -2496,7 +2496,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " لايشمل جميع المنتجات ، حتى 200 ريال سعودي ",
     "duration": "اسبوع",
     "links": "https://uae.danubehome.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " CP02 "
   },
   {
@@ -2508,7 +2508,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "http://www.dresslily.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " AMN38 "
   },
   {
@@ -2520,7 +2520,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 19 ساعة ",
     "links": "https://like4card.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " AM28 "
   },
   {
@@ -2532,7 +2532,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل المنتجات المخفضة ",
     "duration": " اسبوع ",
     "links": "https://ballanstore.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " HAS5 "
   },
   {
@@ -2544,7 +2544,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": " اسبوع ",
     "links": "https://www.couturelabs.com/en",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " AMN32 "
   },
   {
@@ -2556,7 +2556,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": " اسبوع ",
     "links": "https://beauti.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " AMN032 "
   },
   {
@@ -2568,7 +2568,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": " اسبوع ",
     "links": "https://monkeyseverywhere.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " ME100 "
   },
   {
@@ -2581,7 +2581,7 @@ const List<Map<String, dynamic>> offers = [
     "duration": " اسبوع ",
     "links":
         "https://www.basharacare.com/en_sa?gclid=CjwKCAjwx7GYBhB7EiwA0d8oewmtAS-gEbV85rXSumpgorAZQJXTgX_in2cyJFHTsD1-S1UUPvmiIhoCLVkQAvD_BwE",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " CX10 "
   },
   {
@@ -2593,7 +2593,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 23% إضافي على باقة الجلسة الواحدة + خصم المتجر 30% (للمستخدمين الجدد) ",
     "duration": " اسبوع ",
     "links": "https://famcare.app/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " fc20 "
   },
   {
@@ -2605,7 +2605,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 2.5%يشمل جميع المناسبات الكبيره بحد اقصى 1250ريال للخصم ",
     "duration": " اسبوع ",
     "links": "https://onelink.to/eventful",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " bes7s7 "
   },
   {
@@ -2618,7 +2618,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " توصيل مجاني يشمل جميع المنتجات ",
     "duration": " اسبوع ",
     "links": "https://izone-ksa.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " شحن "
   },
   {
@@ -2630,7 +2630,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " اسبوع ",
     "links": "http://theblueage.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " AK22 "
   },
   {
@@ -2643,7 +2643,7 @@ const List<Map<String, dynamic>> offers = [
     "duration": " اسبوع ",
     "links":
         "https://rinafashion.com/?gclid=CjwKCAjwvNaYBhA3EiwACgndgiDPzi3rhtvJocC_7rLjELi1MJ_EzSBgyeaaJWXVw8A-m5u1GRrFIhoCCuAQAvD_BwE",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " AK22 "
   },
   {
@@ -2656,7 +2656,7 @@ const List<Map<String, dynamic>> offers = [
         " احصل على خصم 37 ريال عند شرائك بقيمة 1-188 ريال + احصل على خصم 45 ريال عند شرائك 188-751ريال + احصل على خصم 56ريال عند شرائك 751- 3760 ريال فأكثر ",
     "duration": " 3 أيام ",
     "links": "https://ar-m.patpat.com/ar",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SH55 "
   },
   {
@@ -2668,7 +2668,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": "اسبوع",
     "links": "https://thelettleh.com/?utm_source=social+media+&utm_campaign=sahseh&utm_id=sep15&utm_term=cpc",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " R2 "
   },
   {
@@ -2680,7 +2680,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " شحن مجاني على جميع المنتجات ",
     "duration": " 16 ساعة ",
     "links": "https://thelettleh.com/?utm_source=social+media+&utm_campaign=sahseh&utm_id=sep15&utm_term=cpc",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " R3 "
   },
   {
@@ -2692,7 +2692,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 25%على الاشتراك السنوي عبر عمليات الشراء داخل التطبيق فقط ",
     "duration": "اسبوع",
     "links": "https://www.lamsaworld.com/ar/home",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " CP13 "
   },
   {
@@ -2704,7 +2704,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 30% على التوصيل للمستخدمين الجدد ( استخدام مرة واحده) ",
     "duration": " 3 أيام ",
     "links": "http://mrmandoob.com/download",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " GA31 "
   },
   {
@@ -2716,7 +2716,7 @@ const List<Map<String, dynamic>> offers = [
     "details": "يشمل جميع المنتجات",
     "duration": "اسبوع",
     "links": "https://int.toucheprive.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SAH "
   },
   {
@@ -2728,7 +2728,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " اسبوع ",
     "links": "https://insportksa.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " IN30 "
   },
   {
@@ -2740,7 +2740,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " اسبوع ",
     "links": "https://sa.puma.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " PPP "
   },
   {
@@ -2753,7 +2753,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 35% على قسم العطور فقط. ",
     "duration": " اسبوع ",
     "links": "https://skysalesonline.com/ar",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SA22 "
   },
   {
@@ -2765,7 +2765,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 10% على جميع المنتجات ( باستثناء Yeezy & HypeDrops products ) ",
     "duration": " 12 ساعة ",
     "links": "https://shop.adidas.com.sa/en/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " CJH "
   },
   {
@@ -2777,7 +2777,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " للطلبات من 1-100 خصم 3%\n للطلبات من 101-300 خصم 3,5%\n للطلبات اكثر من 300 خصم 4% ",
     "duration": " اسبوع ",
     "links": "https://www.dermazonestore.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " AMN13 "
   },
   {
@@ -2789,7 +2789,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 25 ريال على الطلبات (بحد ادنى 250 ريال للسلة) ",
     "duration": " يومين ",
     "links": "https://www.luluhypermarket.com/ar-sa/deals",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " EFG25 "
   },
   {
@@ -2801,7 +2801,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 14 ساعة ",
     "links": "https://alsaifgallery.com/SA_ar/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " s7s7 "
   },
   {
@@ -2813,7 +2813,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 20% على المنتجات الجديدة\n خصم 5% على المنتجات المخفضة ",
     "duration": " اسبوع ",
     "links": "https://www.crateandbarrel.me/ar-sa",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " CB1 "
   },
   {
@@ -2825,7 +2825,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " يوم ",
     "links": "https://www.nejree.com/mobiletabletari",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " لها "
   },
   {
@@ -2837,7 +2837,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " 10% كاش باك على الطيران\n 25% كاش باك على الفنادق والشاليهات\n (تشمل بطاقات مصرف الراجحي فقط) ",
     "duration": " اسبوع ",
     "links": "https://www.flyin.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " BLUEWEEK "
   },
   {
@@ -2849,7 +2849,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 10% عبر الموقع الالكتروني \n (يشمل بطاقات بنك الراجحي فقط) ",
     "duration": " 3 أيام ",
     "links": "https://www.lg.com/sa",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " ARB10 "
   },
   {
@@ -2861,7 +2861,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " (يشمل بطاقات بنك الراجحي فقط) ",
     "duration": " اسبوع ",
     "links": "https://raseel.gift/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " ARB20 "
   },
   {
@@ -2873,7 +2873,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات (لجميع المستخدمين) ",
     "duration": " اسبوع ",
     "links": "https://www.t5ear.com/ar",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " S7S7 "
   },
   {
@@ -2885,7 +2885,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 7 ساعات ",
     "links": "https://newlysa.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " NEW1 "
   },
   {
@@ -2897,7 +2897,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://thehotspot.me/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " NEW1 "
   },
   {
@@ -2909,7 +2909,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات (للطلبات فوق 79 ريال) ",
     "duration": " اقل من ساعة ",
     "links": "https://ar.shein.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " 25me "
   },
   {
@@ -2921,7 +2921,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم يصل الى 20% على الرحلات الداخلية من والى الرياض ",
     "duration": " يوم ",
     "links": "https://www.flynas.com/ar",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " RUH20 "
   },
   {
@@ -2933,7 +2933,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " اسبوع ",
     "links": "https://gifts-blvd.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " gifts5 "
   },
   {
@@ -2945,7 +2945,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": "اسبوع",
     "links": "https://gaudyksa.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " joj20 "
   },
   {
@@ -2957,7 +2957,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 3 أيام ",
     "links": "https://tmralbwadi.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " TAB "
   },
   {
@@ -2970,7 +2970,7 @@ const List<Map<String, dynamic>> offers = [
         " على جميع المنتجات، باستثناء المنتجات المخفضة.\n -استخدام مره واحده فقط لكل مستخدم.\n الحد أدنى للطلب 500 ريال. ",
     "duration": " 3 أيام ",
     "links": "https://www.alrugaibfurniture.com/ar",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " BLUE10 "
   },
   {
@@ -2982,7 +2982,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات كحد اقصى 100 ريال ",
     "duration": " 3 أيام ",
     "links": "https://www.mahabaa.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " BLU "
   },
   {
@@ -2994,7 +2994,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 3 أيام ",
     "links": "https://sulindastore.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " SAH10 "
   },
   {
@@ -3006,7 +3006,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات باستثناء المنتجات المخفضة ",
     "duration": " يوم ",
     "links": "https://daralsun.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " GH77 "
   },
   {
@@ -3018,7 +3018,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 3 أيام ",
     "links": "https://lightstation.shop/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " S11 "
   },
   {
@@ -3030,7 +3030,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 5 أيام ",
     "links": "https://alabeeralahmar.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " NWAL10 "
   },
   {
@@ -3042,7 +3042,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " على منتجات مختاره ",
     "duration": " 3 أيام ",
     "links": "https://markat.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " RB32 "
   },
   {
@@ -3054,7 +3054,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 5 أيام ",
     "links": "https://bentte.sa/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": "NH10"
   },
   {
@@ -3066,7 +3066,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " يشمل جميع المنتجات ",
     "duration": " 20 ساعة ",
     "links": "https://abyatalathath.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " A20 "
   },
   {
@@ -3078,7 +3078,7 @@ const List<Map<String, dynamic>> offers = [
     "details": " خصم 30% لأول شراء لك ",
     "duration": " 15 ساعة ",
     "links": "https://www.asos.com/",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " JOIN "
   },
   {
@@ -3091,7 +3091,7 @@ const List<Map<String, dynamic>> offers = [
     "duration": " يومين ",
     "links":
         "https://www.google.com/aclk?sa=l&ai=DChcSEwj51e7ky5H7AhXC4ncKHflwBfcYABATGgJlZg&ase=2&sig=AOD64_3gW8je4XYDiA--Dql_O8BZXHzp9Q&q&nis=4&adurl&ved=2ahUKEwix7eLky5H7AhUURuUKHbPBCW8Q0Qx6BAgKEAE",
-    "Image": "",
+    "Image": "https://cdn-icons-png.flaticon.com/512/6378/6378933.png",
     "code": " T43LZ "
   }
 ];

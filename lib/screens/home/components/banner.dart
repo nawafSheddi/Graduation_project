@@ -28,7 +28,7 @@ class HomePageBanner extends StatelessWidget {
         children: [
           GestureDetector(
             onTap: () {
-              onClick(context, trackingProvider, personalInfo, offersProvider.getOfferByID("1"));
+              onClick(context, trackingProvider, personalInfo, offersProvider.getOfferByID("4"));
             },
             child: Image.asset(
               'assets/images/banner/1.jpeg',
@@ -37,7 +37,7 @@ class HomePageBanner extends StatelessWidget {
           ),
           GestureDetector(
             onTap: () {
-              onClick(context, trackingProvider, personalInfo, offersProvider.getOfferByID("6"));
+              onClick(context, trackingProvider, personalInfo, offersProvider.getOfferByID("24"));
             },
             child: Image.asset(
               'assets/images/banner/2.jpg',
@@ -46,7 +46,7 @@ class HomePageBanner extends StatelessWidget {
           ),
           GestureDetector(
             onTap: () {
-              onClick(context, trackingProvider, personalInfo, offersProvider.getOfferByID("3"));
+              onClick(context, trackingProvider, personalInfo, offersProvider.getOfferByID("4"));
             },
             child: Image.asset(
               'assets/images/banner/3.jpg',

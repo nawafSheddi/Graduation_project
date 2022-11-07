@@ -7,17 +7,22 @@ import 'package:sonar/shared/text_field.dart';
 import 'package:sonar/styles/colors.dart' as colors;
 
 class FirstStep extends StatefulWidget {
-  const FirstStep({Key? key, required this.formKey}) : super(key: key);
+  const FirstStep(
+      {Key? key,
+      required this.formKey,
+      required this.ageController,
+      required this.cityController,
+      required this.titleController})
+      : super(key: key);
   final GlobalKey<FormState> formKey;
+  final TextEditingController ageController;
+  final TextEditingController titleController;
+  final TextEditingController cityController;
   @override
   State<FirstStep> createState() => _FirstStepState();
 }
 
 class _FirstStepState extends State<FirstStep> {
-  final TextEditingController ageController = TextEditingController();
-  final TextEditingController titleController = TextEditingController();
-  final TextEditingController cityController = TextEditingController();
-
   bool isManSelected = false;
   bool isWomenSelected = false;
 
@@ -38,9 +43,9 @@ class _FirstStepState extends State<FirstStep> {
                   style: TextStyle(fontSize: 18, color: colors.secondTextColor),
                 ),
               ),
-              MainTextField(controller: ageController, hint: "Age"),
-              MainTextField(controller: titleController, hint: "Title"),
-              MainTextField(controller: cityController, hint: "City"),
+              MainTextField(controller: widget.ageController, hint: "Age"),
+              MainTextField(controller: widget.titleController, hint: "Title"),
+              MainTextField(controller: widget.cityController, hint: "City"),
               const Padding(
                 padding: EdgeInsets.symmetric(vertical: 30),
                 child: Text(

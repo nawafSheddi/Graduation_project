@@ -23,6 +23,10 @@ class HomePageTabs extends StatelessWidget {
         isScrollable: true,
         onTap: (int index) {
           offersProvider.currentFilterIndex = index;
+          if (index == 0) {
+            trackingProvider.makeMiracle();
+            offersProvider.buildListADsForYou(percentage: trackingProvider.eachCategoryPercentage);
+          }
           offersProvider.filterOffersByCategory(index);
           trackingProvider.addAction(
               action: UserAction.filterUsed,

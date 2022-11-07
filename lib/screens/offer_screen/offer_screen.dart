@@ -24,7 +24,7 @@ class OfferScreen extends StatefulWidget {
   final String? name;
   final String? offer;
 
-  final Map<String, dynamic>? offerData;
+  final Map? offerData;
 
   @override
   State<OfferScreen> createState() => _OfferScreenState();
@@ -36,7 +36,7 @@ class _OfferScreenState extends State<OfferScreen> {
     Size size = MediaQuery.of(context).size;
     double cardHight = size.height * 0.5199;
     if (widget.offerData?["details"]!.length > 30) {
-      cardHight += 19.5;
+      cardHight += 25.5;
     }
     if (widget.offer!.length > 70) {
       cardHight += 30;
